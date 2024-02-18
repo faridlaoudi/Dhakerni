@@ -10,16 +10,20 @@ using System.Windows.Forms;
 
 namespace Dhakerni
 {
-    public partial class UserControl1 : UserControl
+    public partial class UserControl2 : UserControl
     {
-        public UserControl1()
+        public UserControl2()
         {
             InitializeComponent();
         }
 
-        private void UserControl1_Load(object sender, EventArgs e)
+        private void UserControl2_Load(object sender, EventArgs e)
         {
 
+        }
+        public void days(int numday)
+        {
+            lbday.Text = numday +"";
         }
     }
 }
