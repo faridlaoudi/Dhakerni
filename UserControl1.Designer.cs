@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(178, 113);
+            this.Size = new System.Drawing.Size(178, 91);
             this.Load += new System.EventHandler(this.UserControl1_Load);
             this.ResumeLayout(false);
 

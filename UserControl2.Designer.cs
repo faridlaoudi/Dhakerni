@@ -37,7 +37,7 @@
             this.lbday.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbday.Location = new System.Drawing.Point(22, 16);
             this.lbday.Name = "lbday";
-            this.lbday.Size = new System.Drawing.Size(40, 28);
+            this.lbday.Size = new System.Drawing.Size(32, 22);
             this.lbday.TabIndex = 0;
             this.lbday.Text = "00";
             // 
@@ -45,9 +45,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.lbday);
             this.Name = "UserControl2";
-            this.Size = new System.Drawing.Size(178, 113);
+            this.Size = new System.Drawing.Size(178, 91);
             this.Load += new System.EventHandler(this.UserControl2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
